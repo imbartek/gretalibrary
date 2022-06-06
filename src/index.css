@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #e2e2e2;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -17,4 +20,7 @@ li{
   display: flex;
   flex-flow: column;
   align-items: center;
+  justify-content: space-between;
+  min-height: 90vh;
+  text-align: center;
 }

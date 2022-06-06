@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
+import Nav from './components/Nav';
 
 export default function App() {
     const Container = styled.div`
         width: 80%;
-        margin: auto;
+        margin: 3% auto;
 
         ul{
             display: grid;
-            gap: 0;
+            gap: 15px;
             grid-template-columns: repeat(3, 1fr);
         }
         li{
@@ -18,7 +19,31 @@ export default function App() {
             align-items: center;
             text-align: center;
             padding: 15px 0;
-            border: 1px solid black;
+            border-radius: 10px;
+            background-color: #fff;
+            font-size: 80%;
+
+            img{
+                margin-bottom: 3%;
+            }
+        }
+        button{
+            margin: 3%;
+            padding: 1% 3%;
+            background-color: #ffc8ae;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.25rem;
+        }
+
+        @media (max-width: 768px) {
+            ul {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            button{
+                padding: 3% 5%;
+            }
         }
     `
 
@@ -39,6 +64,7 @@ export default function App() {
 
     return (
         <div className='mainContent'>
+            <Nav/>
             <h1>Welcome to Project Gutenberg</h1>
             <h2>Project Gutenberg is a library of over 60,000 free eBooks</h2>
             <Container>
