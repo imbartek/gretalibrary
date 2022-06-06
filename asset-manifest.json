@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/imbartek/gretalibrary/static/css/main.815053c5.css",
+    "main.js": "/imbartek/gretalibrary/static/js/main.3553ea3f.js",
+    "static/js/787.48ce2320.chunk.js": "/imbartek/gretalibrary/static/js/787.48ce2320.chunk.js",
+    "index.html": "/imbartek/gretalibrary/index.html",
+    "main.815053c5.css.map": "/imbartek/gretalibrary/static/css/main.815053c5.css.map",
+    "main.3553ea3f.js.map": "/imbartek/gretalibrary/static/js/main.3553ea3f.js.map",
+    "787.48ce2320.chunk.js.map": "/imbartek/gretalibrary/static/js/787.48ce2320.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.815053c5.css",
+    "static/js/main.3553ea3f.js"
+  ]
+}
